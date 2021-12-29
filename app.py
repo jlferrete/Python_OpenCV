@@ -15,6 +15,6 @@ while True:
 
     cv2.imshow('OpenCV', im)
 
-    key = cv2.waitkey(10)
+    key = cv2.waitKey(10)
     if key == 27:
         break
